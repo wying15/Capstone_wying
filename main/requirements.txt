@@ -1,0 +1,7 @@
+streamlit
+llama-index==0.8.64
+openai==1.19.0
+Pillow
+requests
+pybase64
+langchain-community
