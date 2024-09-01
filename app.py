@@ -77,7 +77,7 @@ def load_data():
     with st.spinner(text="Balancing the 5 flavour elements... Please wait while we create a harmonious culinary experience! This may take 1-2 minutes."):
         
         # Rebuild the storage context
-        storage_context = StorageContext.from_defaults(persist_dir="./data/index.vecstore")
+        storage_context = StorageContext.from_defaults(persist_dir="main/data/index.vecstore")
 
         # Load the index
         index = load_index_from_storage(storage_context)
