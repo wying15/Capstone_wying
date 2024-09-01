@@ -18,8 +18,7 @@ st.set_page_config(page_title="Chat with Rainbow Riley", page_icon="👩🏻‍�
 #Context
 
 # Set OpenAI API key
-_ = load_dotenv(find_dotenv()) # read local .env file
-openai.api_key = os.environ['OPENAI_API_KEY']
+openai.api_key = st.secrets.openai_key
 
 
 # URL of the image you want to display
