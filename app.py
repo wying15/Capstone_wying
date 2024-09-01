@@ -17,7 +17,7 @@ st.set_page_config(page_title="Chat with Rainbow Riley", page_icon="👩🏻‍�
 #Context
 
 # Set OpenAI API key
-openai.api_key = st.secrets.openai_key
+openai.api_key = st.secrets.openai.api_key
 
 
 # URL of the image you want to display
