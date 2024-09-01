@@ -4,7 +4,6 @@ from llama_index.llms import OpenAI
 import openai
 from PIL import Image
 import random
-from dotenv import load_dotenv, find_dotenv
 import os
 import json
 import requests
